@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto Škola Krug</title>
+<link rel="icon" type="ikon" href="/Slike/Logo.png">
+</head>
+
+<body style="margin: 0;">
+<div style="height: 170vh; width: 100vw; background-color: rgb(58, 166, 202); display: flex; flex-direction: column;">
+
+<nav style="height: 80px; width: 100%; display: flex; align-items: center; background-color: white; position: fixed;">
+<div>
+<a href="index.html">
+<img src="/Slike/Logo.png" alt="logo" style="height: 80px; width: 80px; margin-left: 15px;">
+</a>
+</div>
+
+<div style="display: flex; gap: 40px; margin-left: auto; margin-right: 30px;">
+<a href="index.html" style="font-size: 26px; text-decoration: none; color: black;">Početna</a>
+<a href="Onama.html" style="font-size: 26px; text-decoration: none; color: black;">O nama</a>
+<a href="Kategorije.html" style="font-size: 26px; text-decoration: none; color: black;">Kategorije</a>
+<a href="Cenovnik.html" style="font-size: 26px; text-decoration: none; color: black;">Cenovnik</a>
+<a href="Kontakt.html" style="font-size: 26px; text-decoration: none; color: black;">Kontakt</a>
+</div>
+</nav>
+
+<h1 style="padding: 30px; color: white; font-size: 45px; margin-top: 110px;">Kontakt</h1>
+
+<p style="padding: 30px; color: white; font-size: 25px;">
+Adresa: <a href="https://maps.app.goo.gl/TxDzdvvbWUmuDtcY6" target="_blank" style="color: white;">Bulevar Oslobođenja 120, Novi Sad</a><br><br>
+Telefon: +381 64 123 456<br><br>
+Email: <a href="mailto:kontakt@krug.rs" target="_blank" style="color: white;">kontakt@krug.rs</a>
+</p>
+
+<h1 style="padding: 30px; color: white; font-size: 35px; margin-top: 110px;">
+Ukoliko želite da započnete obuku kod nas popunite sledeću formu
+</h1>
+
+<form action="forma.php">
+<label style="color: white; margin-left: 30px;">Ime:</label>
+<input type="text" name="ime"><br><br>
+
+<label style="color: white; margin-left: 30px;">Prezime:</label>
+<input type="text" name="prez"><br><br>
+
+<label style="color: white; margin-left: 30px;">Pol:</label>
+<input type="radio" name="pol">Muško
+<input type="radio" name="pol">Žensko<br><br>
+
+<select name="sel" style="margin-left: 30px;">
+<option value="1" selected disabled>Izaberi kategoriju</option>
+<option value="2">B</option>
+<option value="3">A</option>
+<option value="4">C</option>
+<option value="5">D</option>
+</select><br><br>
+
+<textarea name="a" cols="40" rows="15" style="margin-left: 30px;" placeholder="Ukoliko vas nesto dodatno zanima napisite ovde"></textarea><br><br>
+
+<input type="submit" value="Prosledi podatke" style="margin: 30px;">
+</form>
+
+<footer style="height: 120px; width: 100vw; background-color: rgb(10, 24, 105); display: flex; align-items: center; padding: 0 40px; color: white;">
+<div>
+<a href="https://maps.app.goo.gl/TxDzdvvbWUmuDtcY6" target="_blank" style="margin: 10px; color: white;">Adresa: Bulevar Oslobođenja 120, Novi Sad</a>
+<a href="mailto:kontakt@krug.rs" target="_blank" style="margin: 10px; color: white;">Email: kontakt@krug.rs</a>
+<p style="margin: 10px; color: white;">Telefon: +381 64 123 456</p>
+</div>
+
+<div>
+<a href="https://www.facebook.com/" target="_blank"><img src="/Slike/download.png" style="height: 60px; width: 60px; padding: 10px;"></a>
+<a href="https://www.youtube.com/" target="_blank"><img src="/Slike/yt.png" style="height: 60px; width: 60px; padding: 10px;"></a>
+<a href="https://www.instagram.com/" target="_blank"><img src="/Slike/ig.png" style="height: 60px; width: 60px; padding: 10px; margin-right: 70px;"></a>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
